@@ -1,0 +1,2 @@
+PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\];
+119 else echo \[\e[31m\]O_O\[\e[0m\]; fi\` \u@circle [\w] "
