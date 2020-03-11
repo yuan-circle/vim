@@ -1,0 +1,6 @@
+win + R
+搜尋 Regedit 打開登入編輯程式
+在HKEY_CURRENT_USER/Console 會有幾個名字很長的資料夾，若是ubuntu有更新，就會有多個ubuntu，找到有在用的那個(通常西元年的版本對就是了)
+點開後，在右邊新增檔案名:CodePage，裡面數值採16進位(DWORD類型) 數值:0x01b5(0x不用打)
+重開ubuntu subsystem (可能要重開機)
+完成
