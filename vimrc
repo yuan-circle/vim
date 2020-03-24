@@ -1,7 +1,7 @@
 set nu
 set ai
 set cursorline
-"set background=dark
+set background=dark
 set tabstop=4
 set shiftwidth=4
 set ruler
